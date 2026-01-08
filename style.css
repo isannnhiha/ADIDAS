@@ -5,7 +5,7 @@ body {
 
 /* HERO SECTION */
 .hero {
-    background: linear-gradient(to right, #000000, #1c1c1c);
+    background: linear-gradient(to right, #000000, #313131);
     padding: 100px 0;
 }
 
@@ -83,3 +83,4 @@ h2, h4 {
 .category-content {
     display: none;
 }
+
