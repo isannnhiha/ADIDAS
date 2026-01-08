@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Produk | adidas Indonesia</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS Custom -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">adidas</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">Tentang Kami</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="services.html">Produk</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Galeri</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero text-white text-center">
+        <div class="container">
+            <h1 class="fw-bold">Produk Adidas</h1>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand bg-light category-nav">
+        <div class="container justify-content-center">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown-hover">
+                    <a class="nav-link" href="#">Sepatu</a>
+                    <ul class="dropdown-menu-custom">
+                        <li><a href="#" onclick="toggleCategory('running')">Running</a></li>
+                        <li><a href="#" onclick="toggleCategory('football')">Football</a></li>
+                        <li><a href="#" onclick="toggleCategory('basketball')">Basketball</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown-hover">
+                    <a class="nav-link" href="#">Pakaian</a>
+                    <ul class="dropdown-menu-custom">
+                        <li><a href="#" onclick="toggleCategory('tshirts')">T-Shirts</a></li>
+                        <li><a href="#" onclick="toggleCategory('jersey')">Jersey</a></li>
+                        <li><a href="#" onclick="toggleCategory('celana')">Celana</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown-hover">
+                    <a class="nav-link" href="#">Aksesoris</a>
+                    <ul class="dropdown-menu-custom">
+                        <li><a href="#" onclick="toggleCategory('socks')">Socks</a></li>
+                        <li><a href="#" onclick="toggleCategory('tas')">Tas</a></li>
+                        <li><a href="#" onclick="toggleCategory('topi')">Topi</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+<!-- -----------------------------------------SEPATU----------------------------------------- -->
+<!-- RUNNING -->
+        <div id="cat-running" class="category-content">
+            <div class="container my-5">
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <p class="card-text"><h4>Sepatu 4DFWD 4</h4></p>
+                            </div>
+                            <img src="img/sepatu/running_4DFWD.avif" class="card-img-top" alt=" sepatu running">
+                            <div class="card-body text-center">
+                                <p class="card-text">Sepatu running yang sebagian dibuat dari paduan material daur ulang dan terbarukan.</p>
+                            </div>
+                        </div>
+                    </div> 
+                    
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <p class="card-text"><h4>Sepatu Adistar</h4></p>
+                            </div>
+                            <img src="img/sepatu/running_adistar.avif" class="card-img-top" alt=" sepatu running">
+                            <div class="card-body text-center">
+                                <p class="card-text">Sepatu dengan bantalan Adiprene untuk tampilan klasik saat dipakai sehari-hari.</p>
+                            </div>
+                        </div>
+                    </div> 
+                    
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <p class="card-text"><h4>Sepatu Supernova</h4></p>
+                            </div>
+                            <img src="img/sepatu/running_supernova.avif" class="card-img-top" alt=" sepatu running">
+                            <div class="card-body text-center">
+                                <p class="card-text">Dilengkapi midsole Dreamstrike+, busa super ringan kami yang didesain agar nyaman dipakai.</p>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+
+
+<!-- FOOTBALL -->
+        <div id="cat-football" class="category-content">
+            <div class="container my-5">
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <p class="card-text"><h4>Sepatu Bola Predator Elite Fold-Over Tongue Firm Ground</h4></p>
+                            </div>
+                            <img src="img/sepatu/football_predator.avif" class="card-img-top" alt=" sepatu football">
+                            <div class="card-body text-center">
+                                <p class="card-text">Sepatu bola untuk menembak di lapangan keras dengan lidah lipat.</p>
+                            </div>
+                        </div>
+                    </div> 
+                    
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <p class="card-text"><h4>SEPATU SEPAK BOLA INDOOR TOP SALA COMPETITION II</h4></p>
+                            </div>
+                            <img src="img/sepatu/football_indoor.avif" class="card-img-top" alt=" sepatu football">
+                            <div class="card-body text-center">
+                                <p class="card-text">Sepatu sepak bola indoor dengan midsole EVA yang lembut memberikan rasa empuk yang nyaman.</p>
+                            </div>
+                        </div>
+                    </div> 
+                    
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <p class="card-text"><h4>Sepatu Sepak Bola PREDATOR LEAGUE dengan Lidah Lipat untuk Turf</h4></p>
+                            </div>
+                            <img src="img/sepatu/football_predator_league.avif" class="card-img-top" alt=" sepatu football">
+                            <div class="card-body text-center">
+                                <p class="card-text">Asah ketepatan Anda di lapangan dengan sepatu berbahan mesh Nanostrike yang ekstra ringan.</p>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+
+<!-- BASKETBALL -->
+        <div id="cat-basketball" class="category-content">
+            <div class="container my-5">
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <p class="card-text"><h4>Sepatu ANTHONY EDWARDS 2</h4></p>
+                            </div>
+                            <img src="img/sepatu/basketball_ANTHONY_EDWARDS_2.avif" class="card-img-top" alt=" sepatu football">
+                            <div class="card-body text-center">
+                                <p class="card-text">Sepatu yang berfokus pada performa dengan bantalan midsole Lightstrike untuk pergerakan dinamis.</p>
+                            </div>
+                        </div>
+                    </div> 
+                    
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <p class="card-text"><h4>Sepatu HARDEN VOLUME 10</h4></p>
+                            </div>
+                            <img src="img/sepatu/Sepatu_HARDEN_VOLUME_10.avif" class="card-img-top" alt=" sepatu football">
+                            <div class="card-body text-center">
+                                <p class="card-text">Sepatu fit reguler dengan midsole Boost lentur untuk pengembalian energi dan kenyamanan.</p>
+                            </div>
+                        </div>
+                    </div> 
+                    
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <p class="card-text"><h4>Sepatu Dame X</h4></p>
+                            </div>
+                            <img src="img/sepatu/basketball_Dame_X.avif" class="card-img-top" alt=" sepatu football">
+                            <div class="card-body text-center">
+                                <p class="card-text">Sepatu basket dengan midsole Lightstrike yang sangat ringan untuk gerakan.</p>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+
+
+
+<!-- -----------------------------------------PAKAIAN----------------------------------------- -->
+<!-- T-SHIRTS -->
+        <div id="cat-tshirts" class="category-content">
+            <div class="container my-5">
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <p class="card-text"><h4>T-Shirt Grafis Golf Chip In Paradise</h4></p>
+                            </div>
+                            <img src="img/pakaian/tshirt1.avif" class="card-img-top" alt=" sepatu running">
+                            <div class="card-body text-center">
+                                <p class="card-text">T-Shirt Grafis dengan katun single jersey untuk kenyamanan dan gaya.</p>
+                            </div>
+                        </div>
+                    </div> 
+                    
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <p class="card-text"><h4>Tee Olahraga Logo Feelready Train Esensial</h4></p>
+                            </div>
+                            <img src="img/pakaian/tshirt2.avif" class="card-img-top" alt=" sepatu running">
+                            <div class="card-body text-center">
+                                <p class="card-text">T-shirt olahraga yang menyerap lembapnya.</p>
+                            </div>
+                        </div>
+                    </div> 
+                    
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <p class="card-text"><h4>TEE MONOGRAM INFILL 3S</h4></p>
+                            </div>
+                            <img src="img/pakaian/tshirt3.avif" class="card-img-top" alt=" sepatu running">
+                            <div class="card-body text-center">
+                                <p class="card-text">Tee ini dirancang dengan fit reguler klasik untuk kenyamanan sehari-hari.</p>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+
+
+<!-- JERSEY -->
+        <div id="cat-jersey" class="category-content">
+            <div class="container my-5">
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <p class="card-text"><h4>Jersey Home Lengan Panjang Liverpool FC 25/26</h4></p>
+                            </div>
+                            <img src="img/pakaian/jersey1.avif" class="card-img-top" alt=" sepatu football">
+                            <div class="card-body text-center">
+                                <p class="card-text">Jersey suporter yang mengambil inspirasi dari sejarah panjang Liverpool FC dengan adidas.</p>
+                            </div>
+                        </div>
+                    </div> 
+                    
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <p class="card-text"><h4>BD FB JERSEY</h4></p>
+                            </div>
+                            <img src="img/pakaian/jersey2.avif" class="card-img-top" alt=" sepatu football">
+                            <div class="card-body text-center">
+                                <p class="card-text">-</p>
+                            </div>
+                        </div>
+                    </div> 
+                    
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <p class="card-text"><h4>Jersey Ketiga Liverpool FC 25/26</h4></p>
+                            </div>
+                            <img src="img/pakaian/jersey3.avif" class="card-img-top" alt=" sepatu football">
+                            <div class="card-body text-center">
+                                <p class="card-text">Didesain dengan DNA Liverpool FC dan adidas, jersey ini dibuat untuk membuat para fans tetap nyaman.</p>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+
+<!-- CELANA -->
+        <div id="cat-celana" class="category-content">
+            <div class="container my-5">
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <p class="card-text"><h4>Track Pants Firebird Adicolor Classics</h4></p>
+                            </div>
+                            <img src="img/pakaian/celana1.avif" class="card-img-top" alt=" sepatu football">
+                            <div class="card-body text-center">
+                                <p class="card-text">Celana panjang yang dibuat dari paduan material daur ulang dan terbarukan.</p>
+                            </div>
+                        </div>
+                    </div> 
+                    
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <p class="card-text"><h4>CELANA PANJANG POWER ESSENTIALS WORKOUT</h4></p>
+                            </div>
+                            <img src="img/pakaian/celana2.avif" class="card-img-top" alt=" sepatu football">
+                            <div class="card-body text-center">
+                                <p class="card-text">Bawahan track suit dengan Climacool yang menyerap keringat untuk kenyamanan yang sejuk dan kering.</p>
+                            </div>
+                        </div>
+                    </div> 
+                    
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <p class="card-text"><h4>Celana Lari Stadium</h4></p>
+                            </div>
+                            <img src="img/pakaian/celana3.avif" class="card-img-top" alt=" sepatu football">
+                            <div class="card-body text-center">
+                                <p class="card-text">Celana track berpotongan mid-rise ini cocok untuk kamu yang siap beraksi.</p>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+
+
+<!-- -----------------------------------------AKSESORIS----------------------------------------- -->
+<!-- SOCKS -->
+        <div id="cat-socks" class="category-content">
+            <div class="container my-5">
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <p class="card-text"><h4>Kaus Kaki Crew Cushion 3 Pasang</h4></p>
+                            </div>
+                            <img src="img/aksesoris/socks1.avif" class="card-img-top" alt=" sepatu running">
+                            <div class="card-body text-center">
+                                <p class="card-text">Kaus kaki suportif yang sebagian dibuat dari paduan material daur ulang dan terbarukan.</p>
+                            </div>
+                        </div>
+                    </div> 
+                    
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <p class="card-text"><h4>Kaos Kaki Cushioned Low-Cut 3 Pasang</h4></p>
+                            </div>
+                            <img src="img/aksesoris/socks2.avif" class="card-img-top" alt=" sepatu running">
+                            <div class="card-body text-center">
+                                <p class="card-text">Kaus kaki sehari-hari yang dibuat dari paduan material daur ulang dan terbarukan.</p>
+                            </div>
+                        </div>
+                    </div> 
+                    
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <p class="card-text"><h4>Kaos Kaki Crew Mid-Cut 3 Pasang</h4></p>
+                            </div>
+                            <img src="img/aksesoris/socks3.avif" class="card-img-top" alt=" sepatu running">
+                            <div class="card-body text-center">
+                                <p class="card-text">Tiga pasang kaos kaki yang lembut dan nyaman dengan ukuran setengah betis yang multiguna.</p>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+
+
+<!-- TAS -->
+        <div id="cat-tas" class="category-content">
+            <div class="container my-5">
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <p class="card-text"><h4>TAS SEPATU TRAINING DEFENDER</h4></p>
+                            </div>
+                            <img src="img/aksesoris/tas1.avif" class="card-img-top" alt=" sepatu football">
+                            <div class="card-body text-center">
+                                <p class="card-text">Jaga alas kakimu tetap segar dalam tas sepatu beritsleting ini.</p>
+                            </div>
+                        </div>
+                    </div> 
+                    
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <p class="card-text"><h4>Tas Ransel Klasik Adicolor</h4></p>
+                            </div>
+                            <img src="img/aksesoris/tas2.avif" class="card-img-top" alt=" sepatu football">
+                            <div class="card-body text-center">
+                                <p class="card-text">Tas harian yang fleksibel untuk semua keperluanmu, dengan logo Trefoil di bagian depan dan tengah.</p>
+                            </div>
+                        </div>
+                    </div> 
+                    
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <p class="card-text"><h4>TAS SNEAKER HEADS</h4></p>
+                            </div>
+                            <img src="img/aksesoris/tas3.avif" class="card-img-top" alt=" sepatu football">
+                            <div class="card-body text-center">
+                                <p class="card-text">Tas ripstop dengan konstruksi tahan lama untuk membawa sepatumu dengan aman.</p>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+
+<!-- TOPI -->
+        <div id="cat-topi" class="category-content">
+            <div class="container my-5">
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <p class="card-text"><h4>Topi Trefoil Baseball</h4></p>
+                            </div>
+                            <img src="img/aksesoris/topi1.avif" class="card-img-top" alt=" sepatu football">
+                            <div class="card-body text-center">
+                                <p class="card-text">Model klasik yang sporty dengan konstruksi bahan katun yang nyaman.</p>
+                            </div>
+                        </div>
+                    </div> 
+                    
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <p class="card-text"><h4>TOPI 3-STRIPES TOUR PRINT</h4></p>
+                            </div>
+                            <img src="img/aksesoris/topi2.avif" class="card-img-top" alt=" sepatu football">
+                            <div class="card-body text-center">
+                                <p class="card-text">Topi dengan Climacool untuk kenyamanan sejuk dan kering.</p>
+                            </div>
+                        </div>
+                    </div> 
+                    
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <p class="card-text"><h4>TOPI TOUR 5 PANEL</h4></p>
+                            </div>
+                            <img src="img/aksesoris/topi3.avif" class="card-img-top" alt=" sepatu football">
+                            <div class="card-body text-center">
+                                <p class="card-text">Topi golf dengan penutup snapback yang dapat disesuaikan untuk mendapatkan kenyamanan.</p>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+
+
+        <!-- FOOTER -->
+    <footer class="bg-black text-white text-center py-3">
+        <p class="mb-0">© Project Ikhsan | Company Profile</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
